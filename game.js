@@ -5,7 +5,7 @@ var gamePattern = [];//Array gol ce se umple cu var randomChosenColor
 var started = false;
 var level = 0;
 //____________Game Started______________________________________________________
-$("body").on("keydown", function(event){
+$("body").on("click", function(event){
   if(!started){
     $("#level-title").text("Level " + level);
     nextSequence();
